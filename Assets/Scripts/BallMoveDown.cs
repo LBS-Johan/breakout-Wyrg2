@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BallMoveDown : MonoBehaviour
 {
-    int breakableAmount = 36;
+    public int breakableAmount = 36;
     public float ballSpeed;
     Rigidbody2D rb;
     // Start is called before the first frame update
